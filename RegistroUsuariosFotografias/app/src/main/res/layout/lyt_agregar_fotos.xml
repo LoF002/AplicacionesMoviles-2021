@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".act_agregar_fotos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Agregar Fotos"
+                    android:textAlignment="center"
+                    android:textColor="#1382CC"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:paddingRight="40sp"
+                android:paddingBottom="10sp">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="10sp"
+                    android:text="Autor:"
+                    android:textColor="#1E1E1E"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/lblAutor_AgregarFoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="TextView"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:paddingRight="40sp"
+                android:paddingBottom="10sp">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="149dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:paddingTop="10sp"
+                    android:paddingBottom="5sp"
+                    android:text="Descripción:"
+                    android:textColor="#1E1E1E"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/txtDescripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="112dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_txt_field"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:paddingLeft="10sp"
+                    android:paddingTop="5sp"
+                    android:paddingRight="10sp"
+                    android:paddingBottom="5sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:paddingRight="40sp"
+                android:paddingBottom="10sp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="10sp"
+                    android:text="Foto:"
+                    android:textColor="#1E1E1E"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imgFoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@android:drawable/ic_menu_gallery" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:paddingRight="40sp"
+                android:paddingBottom="10sp">
+
+                <Button
+                    android:id="@+id/btnAgregar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#13B0CC"
+                    android:text="Agregar"
+                    app:cornerRadius="20sp" />
+
+                <Button
+                    android:id="@+id/btnVerFotos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#13B0CC"
+                    android:text="Ver Fotos"
+                    app:cornerRadius="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="40sp"
+                android:paddingTop="10sp"
+                android:paddingRight="40sp">
+
+                <Button
+                    android:id="@+id/btnVolver_AgregarFotos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="#13B0CC"
+                    android:text="Volver"
+                    app:cornerRadius="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

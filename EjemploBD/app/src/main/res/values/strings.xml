@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EjemploBD</string>
+
+    <string name="btnGuardar">Guardar</string>
+    <string name="btnModificar">Modificar</string>
+    <string name="btnEliminar">Eliminar</string>
+    <string name="btnActualizar">Actualizar</string>
+
+</resources>

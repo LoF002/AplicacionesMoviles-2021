@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ARCHIVOS DE PROGRAMA/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/layout/lyt_agregar_fotos.xml" value="0.3578703703703704" />
+        <entry key="..\:/Users/rjchg/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/drawable/custom_txt_field.xml" value="0.2662037037037037" />
+        <entry key="..\:/Users/rjchg/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/rjchg/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/layout/act_registrar_usuarios.xml" value="0.30572916666666666" />
+        <entry key="..\:/Users/rjchg/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/layout/activity_main.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/rjchg/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/layout/item_lista_fotos.xml" value="0.25092592592592594" />
+        <entry key="..\:/Users/rjchg/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/layout/item_lista_usuarios.xml" value="0.25" />
+        <entry key="..\:/Users/rjchg/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/layout/lyt_agregar_fotos.xml" value="0.33055555555555555" />
+        <entry key="..\:/Users/rjchg/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/layout/lyt_iniciar_sesion.xml" value="0.34148550724637683" />
+        <entry key="..\:/Users/rjchg/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/layout/lyt_lista_fotos.xml" value="0.33055555555555555" />
+        <entry key="..\:/Users/rjchg/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/layout/lyt_lista_usuarios.xml" value="0.25" />
+        <entry key="..\:/Users/rjchg/AndroidStudioProjects/RegistroUsuariosFotografias/app/src/main/res/layout/lyt_login.xml" value="0.3432971014492754" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EjemploBD</string>
+    <string name="btnGuardar">Save</string>
+    <string name="btnModificar">Modify</string>
+    <string name="btnEliminar">Remove</string>
+    <string name="btnActualizar">Update</string>
+</resources>
